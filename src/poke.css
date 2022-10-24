@@ -1,0 +1,18 @@
+.poke {
+    animation: tiembla 1s infinite ;
+}
+
+@keyframes tiembla {
+5% {
+        -webkit-transform: rotateZ(-5deg);
+    }
+
+    50% {
+        -webkit-transform: rotateZ(5deg) scale(1);
+    }
+
+    80% {
+        -webkit-transform: rotateZ(-5deg);
+    }
+     
+}

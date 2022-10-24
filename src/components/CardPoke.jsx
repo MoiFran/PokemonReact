@@ -6,6 +6,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "../poke.css";
 
 export const CardPoke = () => {
   const [pokemon, setPokemon] = useState([]);
@@ -30,7 +31,11 @@ export const CardPoke = () => {
             return (
               <Col>
                 <Card style={{ width: "15rem", margin: "1rem" }}>
-                  <Card.Img variant="top" src={pokemon.sprites.front_default} />
+                  <Card.Img
+                    variant="top"
+                    className="poke"
+                    src={pokemon.sprites.front_default}
+                  />
                   <Card.Body>
                     <Card.Title key={index}>{pokemon.name}</Card.Title>
                   </Card.Body>
