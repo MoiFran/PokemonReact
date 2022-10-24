@@ -11,7 +11,7 @@
         -webkit-transform: rotateZ(5deg) scale(1);
     }
 
-    80% {
+    100% {
         -webkit-transform: rotateZ(-5deg);
     }
      
