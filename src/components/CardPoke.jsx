@@ -29,7 +29,7 @@ export const CardPoke = () => {
           {pokemon.map((pokemon, index) => {
             return (
               <Col>
-                <Card style={{ width: "15rem", margin: "0.2rem" }}>
+                <Card style={{ width: "15rem", margin: "1rem" }}>
                   <Card.Img variant="top" src={pokemon.sprites.front_default} />
                   <Card.Body>
                     <Card.Title key={index}>{pokemon.name}</Card.Title>
