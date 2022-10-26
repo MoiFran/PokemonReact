@@ -25,7 +25,7 @@ export const CardPoke = () => {
 
   return (
     <div>
-      <Container>
+      <Container style={{ marginTop: "6rem" }}>
         <Row xs={1} md={2} lg={3}>
           {pokemon.map((pokemon, index) => {
             return (
